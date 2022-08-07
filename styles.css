@@ -1,0 +1,227 @@
+
+*{
+    box-sizing: border-box;
+}
+
+#title {
+    text-align: center;
+    padding-inline: 5px;
+    width: 100%;
+    background: #F39A9D;
+    background-size:contain;
+    color:#C6D8FF;
+    font: 50px Pacifico, cursive;
+}
+
+#subtitle{
+    text-align: left;
+    padding-inline: 5px;
+    background:#F39A9D;
+    color: #405072;
+    font: 24px Pacifico, cursive;
+}
+
+body {
+     display: grid;
+     place-content: center;
+     font: 550 18px 'DancingScript', cursive;
+     background-image: url("img/sky.jpg");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: auto;
+     height: 100vh;
+     line-height: 1.6;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    z-index: 1;
+    top:0;
+    position: fixed;
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background: rgba(240, 202, 196, 0.7);
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+}
+
+.navbar ul li{
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #445597;
+    font-family: "DancingScript", cursive;
+    font-size: 20px;
+    transition: .8s;
+}
+
+.navbar ul li a:hover{
+    font-size: 30px;
+}
+
+section {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+section h1{
+    font-size: 4rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+section p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#seccion1 h1{
+    color: #D68FD6;
+}
+#seccion1 p{
+    color: #6CC551;
+}
+
+#seccion2 h1{
+    color: #C49792;
+}
+#seccion2 p{
+    color: #EA9E8D;
+}
+#seccion3 h1{
+    color: #FBACBE;
+}
+#seccion3 p{
+    color: #DAC6B5;
+}
+#seccion4 h1{
+    color: #A18276;
+}
+#seccion4 p{
+    color: #AD91A3;
+}
+#seccion5 h1{
+    color: #EABDA8;
+}
+#seccion5 p{
+    color: #61988E;
+}
+
+#seccion6 h1{
+    color: #E09891;
+}
+#seccion6 p{
+    color: #CB769E;
+}
+#letterdiv{
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+#letterdiv h1{
+    color: #3b0421;
+    font-size: 4rem;
+    text-align: center;
+    margin: 1rem;
+}
+#letterdiv p{
+    color: #f32a07;
+    font-size: 1.5rem;
+    text-align: center;
+}
+button{
+    font-size: 2rem;
+    font-family: "Pacifico", cursive;
+    background: transparent;
+    border: transparent;
+    color: #CB769E;
+    align-items: center;
+    transition: .8s;
+}
+button:hover{
+    cursor: pointer;
+    font-size: 4rem;
+}
+
+#spotify{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: .5s;
+}
+
+/*.slider-cont{
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 12px 12px;
+    display: flex;
+    align-items: center;
+}
+
+.slider {
+    position: relative;
+    width: 350px;
+}
+
+.slider input[type="range"]{
+    position: absolute;
+    left: -2px;
+    top: 0;
+    width: 354px;
+    height: 8px;
+    -webkit-appearance: none;
+    background-color: transparent;
+    z-index: 99;
+}
+.slider input::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 2px solid rgb(9, 205, 240);
+    cursor: pointer;
+    box-shadow: 0 0 0 1px #fff;
+    border-radius: 50%;
+}
+.slider input::-webkit-slider-thumb:hover{
+    transform: scale(1.1);
+}
+.slider progress{
+    width: 350px;
+    height: 8px;
+    -webkit-appearance: none;
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.slider progress::-webkit-progress-bar{
+    background: #f0f0f0;
+}
+.slider progress::-webkit-progress-value{
+    background: rgb(9, 205, 240);
+}
+.sliderValue{
+    font-family: "Pacifico", cursive;
+    width: 28px;
+    height: 20px;
+    margin-left: 10px;
+    text-align: center;
+}*/
