@@ -22,7 +22,7 @@
 }
 
 body {
-     display: grid;
+     display: block;
      place-content: center;
      font: 550 18px 'DancingScript', cursive;
      background-image: url("img/sky.jpg");
